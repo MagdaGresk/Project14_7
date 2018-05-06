@@ -31,7 +31,5 @@
     "onchange": "^3.3.0",
     "rimraf": "^2.6.2"
   },
-  "dependencies": {
-    "babel-standalone": "^6.26.0"
-  }
+  "dependencies": {}
 }
