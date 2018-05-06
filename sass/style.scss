@@ -1,0 +1,68 @@
+$fonts: 'Cutive Mono', monospace;
+$light-grey: #dfe6e9;
+$grey: #636e72;
+$blue: #0984e3;
+$red: #ff7675;
+$yellow: #ffeaa7;
+
+
+body {
+	align-items: center;
+	background-color: $light-grey;
+	display: flex;
+	font-family: $fonts;
+	justify-content: center;
+	text-align: center;
+
+	.app {
+		background: repeating-linear-gradient(-45deg, #55ee70 40%, #55acee 50%);
+	  	border-radius: 20px;
+	  	display: block;
+	  	height: auto; 
+		margin: 50px auto;
+		max-width: 1500px;
+		min-height: 250px;
+		padding: 10px;		
+		form {
+			input, button {
+				border: 2px solid $grey;
+				border-radius: 20px;
+				font-family: $fonts;
+				padding: 10px 25px;
+				margin: 5px;
+			}
+			button {
+				background-color: $blue;
+				color: black;
+			}
+		}
+		.contactItem {
+			background-color: $yellow;
+			border: 2px solid $grey;
+			border-radius: 20px;
+			display: block;
+			font-family: $fonts;
+			margin: 10px;
+			min-width: 600px;
+			padding-bottom: 10px;
+			
+			.contactImage {
+				display: flex;
+				height: 100px;
+				margin: 0 auto;
+				width: 100px;
+			}
+			ul {
+				list-style-type: none;
+				margin: 0;
+				min-height: 200px;
+				padding: 0;
+			}
+			a, p {
+				color: $blue;
+				font-size: 20px;
+				text-decoration: none;
+			}
+		}
+	}
+}
